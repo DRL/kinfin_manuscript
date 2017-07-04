@@ -68,7 +68,7 @@ $KINFIN/kinfin \
     -t supplementary_data_2/kinfin.tree.nwk \
     -f supplementary_data_2/kinfin.functional_annotation.txt
   
-# 4. Infer representative functional annotation (all clusters)
+# 4.1 Infer representative functional annotation (all clusters)
 $KINFIN/scripts/filter_functional_annotation_of_clusters.py all \
     -f kinfin.advanced.kinfin_results/cluster_metrics_domains.IPR.txt \
     -c kinfin.advanced.kinfin_results/cluster_counts_by_taxon.txt \
@@ -76,7 +76,7 @@ $KINFIN/scripts/filter_functional_annotation_of_clusters.py all \
     -p 0.75 \
     -o kinfin.IPR
 
-# 4. Infer representative functional annotation (synapomorphic clusters)
+# 4.2 Infer representative functional annotation (synapomorphic clusters)
 $KINFIN/scripts/filter_functional_annotation_of_clusters.py synapo \
     -f kinfin.advanced.kinfin_results/cluster_metrics_domains.IPR.txt \
     -c kinfin.advanced.kinfin_results/cluster_counts_by_taxon.txt \
