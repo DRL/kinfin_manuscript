@@ -1,4 +1,7 @@
 # kinfin_manuscript
+
+[![DOI](https://zenodo.org/badge/95892139.svg)](https://zenodo.org/badge/latestdoi/95892139)
+
 Data for the KinFin manuscript
 
 # Commands
